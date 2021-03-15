@@ -11,6 +11,6 @@ for i in range(граница1, граница2 + 1):
     while число < граница1 or число > граница2:
      чиcло = int(input("Ввести число: "))
     if i == число:
-        print("!",i,"!", end=" ")
+     print("!",i,"!", end=" ")
     else:
-        print(i, end=" ")
+     print(i, end=" ")
